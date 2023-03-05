@@ -1,0 +1,99 @@
+body{
+    background: #bbb9c9;
+}
+.outer {
+    background: #c4f5f7;
+    border-radius: 40px;
+    margin: 60px 80px 60px 80px;
+    padding: 40px;
+  }
+  .header h1 {
+    color: #0951ee;
+    font-size: 55px;
+    font-family: cursive;
+    font-weight: bold;
+    padding: 20px;
+  }
+  .caption h4 {
+    font-family: cursive;
+    font-size: 20px;
+  }
+  .thumbnail { 
+    background: transparent; 
+    border: none;
+  }
+  .thumbnail img {
+    border-radius: 10%;
+  }
+  .intro p {
+    font-family: cursive;
+    text-align: justify;
+    font-size: 20px;
+    padding: 15px;
+  }
+  .timeline ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  
+  .timeline li {
+    padding-left: 6em;
+    text-indent: -1em;
+    font-family: cursive;
+    font-size: 20px;
+  }
+  
+  .timeline li:before {
+    content: "►";
+    padding-right: 8px;
+  }
+  .quotes h2 {
+    border: 4px #0088e29d solid;
+    margin: 30px 80px 30px 80px;
+    padding: 30px;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 40px;
+  }
+  .quotebox {
+    border: 4px #0088e29d solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 8px;
+  }
+  h1:hover{
+    color: #110071;
+    text-shadow: #110071;
+  }
+  h2:hover{
+    color: rgb(107, 77, 37);
+  }
+  h4:hover{
+    color: rgb(107, 77, 37);
+  }
+  p:hover{
+    color: rgb(107, 77, 37);
+  }
+  .quotebox:hover {
+    background-color: #130080;
+    color: #FFFFFF;
+  }
+  .quotebox p {
+    font-family: cursive;
+    text-align: justify;
+    font-size: 20px;
+    padding: 15px;
+    font-weight: bold;
+  }
+  .reference p {
+    font-family:cursive;
+    font-size: 22px;
+  }
+  .reference a:hover {
+    color:#0951ee;
+  }
+  .p{
+    font-family: cursive;
+  }
+  
